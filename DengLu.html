@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+		<title>登录-碧蓝航线WIKI</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/new_file.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/lunbo.js"></script>
+	</head>
+	<body class="body" id="mypage" data-spy="srcoll" data-target="#mynav">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header col-md-6">
+				<a href="#index.html" class="nav-logo">
+					<img src="img/LOGO.png" height="50">
+				</a>
+				<button type="button" class="navbar-toggle" data-toggle="collaspe" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse col-md-6 pull-right nav-col" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="DengLu.html"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+					<li class="active"><a href="index.html">主页</a></li>
+					<li><a href="KAN-SEN.html">舰船<span class="caret"></span></a></li>
+					<li><a href="ZhuangBei.html">装备<span class="caret"></span></a></li>
+					<li><a href="#">地图<span class="caret"></span></a></li>
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">攻略<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">攻略合集</a></li>
+							<li><a href="#">攻略梳理</a></li>
+							<li><a href="#">活动攻略</a></li>
+							<li><a href="#">待审核区</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container wy dl">			
+			<div class="row wy container-2">
+				<div class="col-md-12"><img src="img/LOGO.png"></div>
+				<div class="collapse navbar-collapse" id="mynav">
+					<ul class="nav navbar-nav navdiv col-md-12">
+						<li class="active"><a href="DengLu.html" class="navdiv-size text-center"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+						<li><a href="index.html" class="navdiv-size text-center">主页</a></li>
+						<li><a href="KAN-SEN.html" class="navdiv-size text-center">舰船<span class="caret"></span></a></li>
+						<li><a href="ZhuangBei.html" class="navdiv-size text-center">装备<span class="caret"></span></a></li>
+						<li><a href="#" class="navdiv-size text-center">地图<span class="caret"></span></a></li>
+						<li><a href="#" class="dropdown-toggle2 navdiv-size text-center" data-toggle="dropdown">攻略<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">攻略合集</a></li>
+								<li><a href="#">攻略梳理</a></li>
+								<li><a href="#">活动攻略</a></li>
+								<li><a href="#">待审核区</a></li>
+							</ul>
+						</li>
+						<div class="pull-right col-md-3 d5">
+							<form>
+								<input placeholder="在本WIKI中搜索..." type="text"/>
+								<button type="submit" class="glyphicon glyphicon-search" style="color: black;"></button>
+							</form>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="container wy container-1">
+					<div id="myCarousel"  class="carousel slide">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="img/dh1.jpg">
+							</div>
+							<div class="item">
+								<img src="img/dh2.jpg">
+							</div>
+						</div>
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div> 
+				</div>
+				<div class="col-md-12">
+					<p class="dzt text-center">登录</p>
+				</div>
+				<div class="col-md-12">
+					<div class="col-xs-6 col-sm-6 nr">
+						<ul class="nav nav-tabs tab-nav" id="mytab">
+							<li class="active col-md-3"><a href="#mima">密码登录</a></li>
+							<li class="col-md-3"><a href="#duanxin">短信登录</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active in fade" id="mima">
+								<div class="tab">
+									<div class="col-xs-2 col-sm-2 tab-text"><p>账号:</p></div>
+									<div class="col-xs-10 col-sm-10 input-group">
+										<input type="text" placeholder="请输入你的账号..." class="form-control"/>
+									</div>
+								</div>
+								<div class="tab">
+									<div class="col-xs-2 col-sm-2 tab-text"><p>密码:</p></div>
+									<div class="col-sm-10 col-xs-10 input-group">
+										<input type="text" placeholder="请输入你的密码..." class="form-control"/>
+									</div>
+								</div>
+							</div>
+							<div  class="tab-pane fade" id="duanxin">
+								<div class="tab">
+									<div class="col-sm-10 col-xs-10 input-group">
+										<span class="input-group-btn">
+											<button type="button" class="btn btn-login2">
+												<span>请选择地区<span class="caret"></span></span>
+											</button>
+										</span>
+										<input type="text" placeholder="请输入常用手机号" class="form-control"/>
+									</div>
+								</div>
+								<div class="tab">
+									<div class="col-sm-10 col-xs-10 input-group">
+										<input type="text" placeholder="请输入验证码" class="form-control"/>
+										<span class="input-group-btn">
+											<button type="button" class="btn btn-get">
+												<span>获取验证码</span>
+											</button>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="label-1">
+							<label>
+								<label class="label-an">
+									<input type="checkbox" />
+								</label>
+								记住密码
+								<span class="label-zt">不是自己的电脑上不要勾选此项</span>
+							</label>
+							<div class="pull-right">
+								<a href="#">忘记密码?</a>
+								<a href="#">无法验证?</a>
+							</div>
+						</div>
+						<div>
+							<a href="index.html" class="btn btn-login pull-left">登录</a>
+							<a class="btn btn-register pull-right">注册</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center wy footer">
+			<p>本站部分资源来源于互联网，如果无意之中侵犯了您的版权，请来信告之，本站将在三个工作日内删除。<br>&copy;版权所有</p>
+		</div>
+	</body>
+</html>

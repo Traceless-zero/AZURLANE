@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+		<title>欢迎来到《碧蓝航线》WIKI页面！</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/new_file.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/IN.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="body" id="mypage" data-spy="srcoll" data-target="#mynav">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header col-md-3">
+				<a href="#index.html" class="nav-logo">
+					<img src="img/LOGO.png" height="50">
+				</a>
+				<button type="button" class="navbar-toggle" data-toggle="collaspe" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse col-md-6 pull-right nav-col" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="DengLu.html"><span class="glyphicon glyphicon-user"></span>登录</a></li>
+					<li class="active"><a href="index.html">主页</a></li>
+					<li><a href="KAN-SEN.html">舰船<span class="caret"></span></a></li>
+					<li><a href="ZhuangBei.html">装备<span class="caret"></span></a></li>
+					<li><a href="#">地图<span class="caret"></span></a></li>
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">攻略<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">攻略合集</a></li>
+							<li><a href="#">攻略梳理</a></li>
+							<li><a href="#">活动攻略</a></li>
+							<li><a href="#">待审核区</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<div><video id="video" src="video/3周年MV.mp4" width="100%" loop="loop" autoplay="autoplay"></video></div>
+		<div class="box">
+			<div><button class="down"><a href="https://game.bilibili.com/blhx/">进入官网</a></button></div>
+			<div><button class="in"><a href="index.html">进入WIKI</a></button></div>
+		</div>
+		<div class="shoufengqin">
+			<div class="wrap">
+				<h3>游戏四大势力</h3>
+				<div class="item big">
+					<img src="img/In/ShiLi/白鹰.png">
+				</div>
+				<div class="item">
+					<img src="img/In/ShiLi/铁血.png">
+				</div>
+				<div class="item">
+					<img src="img/In/ShiLi/皇家.png">
+				</div>
+				<div class="item">
+					<img src="img/In/ShiLi/重樱.png">
+				</div>
+			</div>
+		</div>
+		<div class="story">
+			<div class="text">
+				<h3>世界观</h3>
+				<br />
+				<p>这是一个表面被71%的海水覆盖着的蓝色星球，</p>
+				<p>人类在这片碧蓝色之中出生、成长、孕育和发展属于自己的文明。</p>
+				<br />
+				<br />
+				<p>然而，伴随着它们的，还有不断膨胀的野心和欲望。</p>
+				<p>表面风平浪静的世界格局之下，历史的暗流涌动。</p>
+				<br />
+				<br />
+				<p>终于，未知的敌人在海洋中出现，面对敌方压倒性的战力，各个阵营却仍然各自为战，</p>
+				<p>最终换来的结果亦是惨痛的：人类失去了90%以上的海域控制权，科技和生活水平急速倒退。</p>
+				<p>人类对于海洋以及未知的敌人产生了深深的阴影，</p>
+				<p>并且将那些将他们拖入深海黑暗之中的怪物们称之为“塞壬”。</p>
+				<br />
+				<br />
+				<p>数十年之后，各大阵营为了夺回曾经的辉煌，终于摒弃前嫌，联合创建了第三方军事组织“碧蓝航线”，</p>
+				<p>“碧蓝航线”的宗旨在于：集结并共享来自世界各大阵营的科技与资源，</p>
+				<p>建造出能够与“塞壬”抗衡的新锐舰队，夺回海域的控制权。</p>
+			</div>
+		</div>
+		<div class="row text-center wy footer">
+			<p>本站部分资源来源于互联网，如果无意之中侵犯了您的版权，请来信告之，本站将在三个工作日内删除。<br>&copy;版权所有</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		document.getElementById("video").volume=0.02;
+		$(function () {
+		    $(".item").mouseenter(function () {
+		        $(this).addClass("big").siblings().removeClass("big");
+		    });
+		});
+	</script>
+</html>
